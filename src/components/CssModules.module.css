@@ -1,0 +1,22 @@
+/* CssModules: 普通のcss,scss,sassの書き方ができる */
+.container {
+  border: solid 20x blue;
+  border-radius: 20px;
+  margin: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  margin: 0;
+  color: red;
+}
+.button {
+  background-color: green;
+  border: none;
+  padding: 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
